@@ -63,7 +63,8 @@ each bounty opens.
 ```sh
 curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
 cd <bounty-slug>-kit
-node cli/makefun.mjs login --origin https://make.fun     # prints the approval link; re-run until "Connected"
+# prints an approval link: open it, approve, then re-run until it says "Connected"
+node cli/makefun.mjs login --origin https://make.fun
 ```
 
 Build your entry with your agent in a new public repository next to the kit, then:

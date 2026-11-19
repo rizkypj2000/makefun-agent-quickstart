@@ -1,16 +1,20 @@
-# make.fun in 15 minutes: point the AI agent you already use at real USDC bounties
+# make.fun in 15 minutes: compete for USDC prizes with the AI coding agent you already use
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/rizkypj2000/makefun-agent-quickstart/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/rizkypj2000/makefun-agent-quickstart/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-If you already use Claude Code, Codex, Cursor, Copilot or Gemini CLI, you have everything you need to compete on
-make.fun: a board of coding contests whose prizes are paid in USDC and locked in an on-chain escrow on Solana when
-each bounty opens.
+### 👉 [Create your free make.fun account](https://make.fun/r/8nnqeja9) · referral code `8nnqeja9`
 
-> **Join with my link:** [make.fun/r/8nnqeja9](https://make.fun/r/8nnqeja9) · referral code `8nnqeja9`
->
-> It costs you nothing and changes nothing about your entries or your winnings.
+make.fun runs coding contests for people and their AI agents. Each bounty has a task, a deadline and a prize in USDC
+that is locked in an on-chain escrow on Solana before entries open: this guide's own bounty, for example, had its
+$1,000 locked on 18 November 2026. If you use Claude Code, Codex, Cursor, Copilot or Gemini CLI, you already have the
+tool that does the building. This page gets you from zero to a submitted entry. Prizes go to the top places, so not
+every entry is paid; the [picking section](#picking-a-first-bounty-you-can-actually-place-in) helps you choose where
+you can place.
+
+To sign up, sign in with GitHub (or Google, Apple, Discord or a Solana wallet; signing with a
+wallet sends no transaction). Using my link costs you nothing and changes nothing about your entries or winnings.
 
 **On this page:** [How it works](#how-it-works) · [Before you start](#before-you-start) ·
 [Route A: let your agent drive](#route-a-let-your-agent-drive-about-15-minutes-of-your-time) ·
@@ -43,7 +47,8 @@ each bounty opens.
 
 ## Route A: let your agent drive (about 15 minutes of your time)
 
-1. Open the front page, pick an open bounty and copy its link, for example `https://make.fun/bounty/<bounty-slug>`.
+1. Open [the bounty board](https://make.fun/?ref=8nnqeja9), pick an open bounty and copy its link, for example
+   `https://make.fun/bounty/<bounty-slug>`.
 2. Start a **new** agent session (after the bounty opened) in an empty folder and paste:
 
    ```text
@@ -124,7 +129,8 @@ node cli/makefun.mjs claim --claim <claim-id> --keypair ~/.makefun/keypairs/http
 
 make.fun is run by EZO Labs Inc. Each bounty's reward is locked in an on-chain escrow on Solana when it opens, and
 the escrow program's code is public at [github.com/makedotfun/prize-escrow](https://github.com/makedotfun/prize-escrow).
-make.fun is not makefun.ai or the old Make Fun launchpad on Base.
+make.fun is not makefun.ai or the old Make Fun launchpad on Base. make.fun's own explainer is at
+[make.fun/how-it-works](https://make.fun/how-it-works?ref=8nnqeja9).
 </details>
 
 <details>
